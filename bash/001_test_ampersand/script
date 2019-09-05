@@ -1,0 +1,4 @@
+#!/bin/bash
+
+./first.py &
+echo 'done'

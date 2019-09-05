@@ -1,0 +1,15 @@
+print 'sss'
+
+def dec(func):
+    def impl():
+        print('before')
+        func()
+        print('after')
+
+
+@dec
+def foo():
+    pass
+
+
+foo()

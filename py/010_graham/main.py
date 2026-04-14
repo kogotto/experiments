@@ -1,7 +1,9 @@
 #!/usr/bin/python
 
 # from prettytable import PrettyTable
+from functools import cache
 
+@cache
 def X(hyper_dim, face_dim):
     if face_dim > hyper_dim:
         return 0
@@ -37,9 +39,9 @@ for i in range(12, 14):
         pretty(X, i, j)
     print()
 
-dict_ = {}
-dict_[(1,'a')] = 10
-print(dict_)
-# pretty(X, 50, 25)
+# dict_ = {}
+# dict_[(1,'a')] = 10
+# print(dict_)
+pretty(X, 50, 25)
 
 # print('X(3, {}) = {}'.format(i, X(3, i)))

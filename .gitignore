@@ -1,1 +1,8 @@
 *.out
+*.E
+
+Session.vim
+compile_commands.json
+
+build/
+.cache/

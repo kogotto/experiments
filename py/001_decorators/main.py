@@ -1,4 +1,4 @@
-print 'sss'
+print('sss')
 
 def dec(func):
     def impl(*args, **kwargs):

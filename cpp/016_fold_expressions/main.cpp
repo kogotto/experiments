@@ -65,4 +65,6 @@ int main() {
     pr(leftComa(1))
     pr(leftComa(1, 2))
     pr(leftComa(1, 2, 3))
+
+    pr("----------------")
 }
